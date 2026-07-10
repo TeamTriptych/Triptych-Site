@@ -1,26 +1,230 @@
 <!DOCTYPE html>
 <style>
 
-	* {
-		--text: rgb(0, 0, 0);
-		--border: #000000;
-		--accent: #8a54d5;
-		--bg: rgba(255, 255, 255, 0.8);
-		box-sizing: border-box;
-	}
+    * {
+        --text: #a2c34f;
+        --border: #a2c34f;
+        --accent: #a2c34f;
+        --bg: #000;
+        box-sizing: border-box;
+        
+    }
 
+
+    html {
+        background-color: #000000;
+        opacity: 0.8;
+        background-image: radial-gradient(circle, #393939 1.36px, transparent 1.36px), radial-gradient(circle, #393939 1.36px, transparent 1.36px);
+        background-size: 8.5px 34px, 34px 8.5px;
+        background-position: -4.25px -17px, -17px -4.25px;
+    }
+    .container {
+        background-color:#000;
+        color: var(--text);
+        max-width: 55rem;
+        margin: 5vw auto 5px auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        border: 2px solid var(--border);
+        gap: 5px;
+    }
+
+
+    .small {
+        flex: 1 1 9%;
+    }
+
+    .large {
+        flex: 1 1 82%;
+    }
+
+    .full {
+        flex: 1 1 100%;
+    }
+
+    .half {
+        flex: 1 1 49%;
+    }
+
+    .twothird {
+        flex: 1 1 60%;
+    }
+
+    .third {
+        flex: 1 1 30%;
+    }
+
+
+    header {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 120px; 
+        border: 2px dotted var(--border);
+        position: relative;
+        margin: 5px;
+    }
+
+    marquee {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 30px; 
+        border: 2px dotted var(--border);
+        position: relative;
+        margin: 5px;
+        font-size: large;
+    }
+
+
+    nav {
+        border: 2px dotted var(--border);
+        padding: 5px;
+    }
+
+        nav div {
+            text-align: center;
+            font-size: 1.25rem;
+            margin: 5px 5px 10px 5px;
+        }
+
+        nav a {
+            display: block;
+            margin: 5px;
+            border: 2px dotted var(--border);
+            padding: 2px 7px;
+            text-decoration: none;
+        }
+
+            nav a:link, nav a:visited {
+                color: var(--text);
+            }
+
+
+    div.small > img {
+        display: block;
+        margin: 5px auto;
+        border: 2px dotted var(--border);
+    }
+
+
+    section {
+        border: 2px dotted var(--border);
+        padding: 10px;
+        margin: 5px;
+    }
+
+
+    footer {
+        text-align: center;
+        margin-bottom: 5vw;
+        font-size: 0.8rem;
+    }
+
+        footer a {
+            text-decoration: none;
+        }
+
+
+    h1, h2, h3, h4, h5, h6, p {
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        font-weight: normal;
+        text-align: center;
+        border-bottom: 2px dotted var(--border);
+        padding-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        font-weight: normal;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+        color: var(--accent);
+        text-align: right;
+    }
+
+
+    img {
+        max-width: 100%;
+    }
+
+    pre {
+        overflow-x: auto;
+    }
+
+
+    a:hover, a:focus {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+    }
+
+    a:visited {
+        color: var(--accent);
+    }
 </style>
 
 <html>
 	<head>
 		<title> Team Triptych </title>
-		<!--<link href="triptychlanding.css" rel="stylesheet" type="text/css" media="all">-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 	</head>
 
 	<body>
-		<h1>Caitlin's Page Where He Will Put Stuff</h1>
+
+        <div class="container">
+
+            <header>
+                welcome 2 cderworld
+            </header>
+
+            <marquee>/ please mind the gap /</marquee>
+
+            <section class="third">
+                <h1>trinket collection</h1>
+                <h3>
+                    poopoo
+                </h3>
+            </section>
+
+            <section class="twothird">
+                <h1>walcome 2 cderworld</h1>
+                <h3>come look at my arts.</h3>
+                <p> down there vv </p>
+
+            </section>
+
+            <section class="full">
+                <h1>zines</h1>
+                <p>pksafasd</p>
+            </section>
+
+            <section class="full">
+                <h1>prints</h1>
+                <p>pksafasd</p>
+            </section>
+
+            <section class="full">
+                <h1>game s</h1>
+                <p>pksafasd</p>
+            </section>
+
+        </div>
+
+		<footer>
+			<p>collaged by a transsexual, 2026 </p>
+		</footer>
 
 	</body>
 </html>
