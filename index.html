@@ -1,171 +1,59 @@
 <!DOCTYPE html>
-<style>
 
-	* {
-		--text: rgb(0, 0, 0);
-		--border: #000000;
-		--accent: #8a54d5;
-		--bg: rgba(255, 255, 255, 0.8);
-		box-sizing: border-box;
-	}
-
-	body {
-		padding: 10px;
-		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-		color: var(--text);
-		background-color: var(--bg);
-	}
-
-
-	.container {
-		max-width: 50rem;
-		margin: 3vw auto 5px auto;
-		margin-top: 0px;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 20px;
-		background-color: var(--bg);
-	}
-
-	.third {
-		flex: 1 1 30%;
-		color: transparent;
-	}
-
-		.third:hover {
-			flex: 1 1 30%;
-			rotate: 2deg;
-			color: white;
-			-webkit-text-stroke: 10px #000;
-		}
-
-	.fix-stroke {
-		paint-order: stroke fill;
-	}
-
-	.third h1 {
-		position: absolute;
-		font-size: 2.5rem;
-		bottom: 0;
-		right: 10px;
-		margin: 10px;
-	}
-
-
-	section {
-		border: 20px double var(--border);
-	}
-
-
-	footer {
-		text-align: center;
-		margin-bottom: 5vw;
-		font-size: 0.8rem;
-	}
-
-
-	h1 {
-		font-size: 1.5rem;
-		letter-spacing: 2px;
-		font-weight: normal;
-		text-align: center;
-	}
-
-	h2 {
-		font-size: 1.25rem;
-		font-weight: normal;
-		text-align: center;
-	}
-
-	h3 {
-		font-size: 1.1rem;
-	}
-
-	h4 {
-		font-size: 1rem;
-	}
-
-
-	img {
-		max-width: 100%;
-	}
-
-	pre {
-		overflow-y: visible;
-	}
-
-    a {
-        color: var(--accent);
-    }
-
-    a:visited {
-        color: var(--accent);
-    }
-
-    a:hover, a:focus {
-        color: var(--accent);
-        text-decoration-line: underline;
-        text-decoration-style: wavy;
-    }
-
-
-
-</style>
 <html>
-<head>
-	<title> Team Triptych </title>
-	<!--<link href="triptychlanding.css" rel="stylesheet" type="text/css" media="all">-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-</head>
+	<head>
+		<title> Team Triptych </title>
+		<link href="triptych.css" rel="stylesheet" type="text/css" media="all">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+	</head>
 
-<body>
-	<center>
-		<a href="index.html"><img src="logo.png" style="width:30%"></a>
-		<h1 style="margin-top:0px;">an interdisciplinary games collectivestudiothing.</h1>
-	</center>
-	<div class="container">
+	
+	<body>
+		<center>
+			<header>
+				<a href="index.html"><img src="logo.png"></a>
+			</header>
+		</center>
 
-		<section class="third">
-			<h1 class="fix-stroke">gallery</h1>
-			<a href="gallery-hub.html">
-				<img src="goose.png">
-			</a>
-		</section>
+		<h1>an interdisciplinary games collectivestudiothing.</h1>
 
-		<section class="third">
-			<h1 class="fix-stroke">games</h1>
-			<a target="_blank" href="https://teamtriptych.itch.io/">
-				<img src="church.png">
-			</a>
-		</section>
+		<div class="narrow-container">
 
-		<section class="third">
-			<h1 class="fix-stroke">about</h1>
-			<a href="about.html">
-				<img src="mantis.png">
-			</a>
-		</section>
+			<section class="hover-animated-frame">
+				<h1 class="fix-stroke">gallery</h1>
+				<a href="gallery-hub.html"><img src="goose.png"></a>
+			</section>
 
-	</div>
+			<section class="hover-animated-frame">
+				<h1 class="fix-stroke">games</h1>
+				<a target="_blank" href="https://teamtriptych.itch.io/"><img src="church.png"></a>
+			</section>
 
-	<br>
+			<section class="hover-animated-frame">
+				<h1 class="fix-stroke">about</h1>
+				<a href="about.html"><img src="mantis.png"></a>
+			</section>
 
-	<footer>
-		<h2>
-			<a href="">←</a>
-			web ring example
-			<a href="">→</a>
-		</h2>
+		</div>
 
-		<h2>
-			<a target="_blank" href="https://cdertrees.itch.io/">■</a>
-			<a target="_blank" href="https://zdesign.itch.io/">■</a>
-			<a target="_blank" href="https://laggiga.itch.io/">■</a>
-			<!--made with a computer, 2026-->
-		</h2>
+		<br>
 
-	</footer>
+		<footer>
+			<h2>
+				<a href="">←</a>
+				web ring example
+				<a href="">→</a>
+			</h2>
 
-</body>
+			<h2>
+				<a target="_blank" href="https://cdertrees.itch.io/">■</a>
+				<a target="_blank" href="https://zdesign.itch.io/">■</a>
+				<a target="_blank" href="https://laggiga.itch.io/">■</a>
+				<!--made with a computer, 2026-->
+			</h2>
+
+		</footer>
+
+	</body>
 </html>

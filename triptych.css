@@ -1,0 +1,150 @@
+* {
+	--text: #000000;
+	--border: #000000;
+	--accent: #8a54d5;
+	--bg: #fff;
+	box-sizing: border-box;
+}
+
+
+body {
+	padding: 10px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: var(--text);
+	background-color: var(--bg);
+}
+
+
+.narrow-container {
+	max-width: 50rem;
+	margin: 3vw auto 5px auto;
+	margin-top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	background-color: var(--bg);
+	align-items: flex-start;
+}
+
+.container{
+	
+	max-width: 80rem;
+	margin: 3vw auto 5px auto;
+	margin-top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	background-color: var(--bg);
+	align-items: flex-start;
+
+}
+
+.frame {
+	flex: 1 1 30%;
+	color: var(--text);
+	margin: 0px;
+	padding: 20px;
+}
+
+.animated-frame {
+	flex: 1 1 30%;
+	color: white;
+	-webkit-text-stroke: 10px #000;
+
+}
+
+.hover-animated-frame{
+	flex: 1 1 30%;
+	color: transparent;
+}
+
+	.animated-frame:hover {
+		flex: 1 1 30%;
+		rotate: 2deg;
+		color: white;
+		-webkit-text-stroke: 10px #000;
+	}
+
+.fix-stroke {
+	paint-order: stroke fill;
+}
+
+.hover-animated-frame h1 {
+	position: absolute;
+	font-size: 1.5rem;
+	bottom: 0;
+	right: 10px;
+	margin: 10px;
+}
+
+
+section {
+	border: 20px double var(--border);
+}
+
+header {
+	width: 25%;
+	margin-top: 0px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 5vw;
+	font-size: 0.8rem;
+}
+
+
+h1 {
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.25rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+.tagline 
+{
+	text-align: center;
+	color: var(--accent);
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: -10px;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+pre {
+	overflow-y: visible;
+}
+
+a {
+	color: var(--accent);
+}
+
+	a:visited {
+		color: var(--accent);
+	}
+
+	a:hover, a:focus {
+		color: var(--accent);
+		text-decoration-line: underline;
+		text-decoration-style: wavy;
+	}
+
