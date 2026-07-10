@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<style>
+
+	* {
+		--text: rgb(0, 0, 0);
+		--border: #000000;
+		--accent: #8a54d5;
+		--bg: rgba(255, 255, 255, 0.8);
+		box-sizing: border-box;
+	}
+
+	body {
+		padding: 10px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		color: var(--text);
+		background-color: var(--bg);
+	}
+
+
+	.container {
+		max-width: 50rem;
+		margin: 3vw auto 5px auto;
+		margin-top: 0px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		background-color: var(--bg);
+	}
+
+	.third {
+		flex: 1 1 30%;
+		color: transparent;
+	}
+
+		.third:hover {
+			flex: 1 1 30%;
+			rotate: 2deg;
+			color: white;
+			-webkit-text-stroke: 10px #000;
+		}
+
+	.fix-stroke {
+		paint-order: stroke fill;
+	}
+
+  figure {
+      margin:0px;
+	  padding:0px;
+    }
+
+      
+	.third h1 {
+		position: absolute;
+		font-size: 2.5rem;
+		bottom: 0;
+		right: 10px;
+		margin: 10px;
+	}
+
+
+	section {
+		border: 20px double var(--border);
+	}
+
+
+	footer {
+		text-align: center;
+		margin-bottom: 5vw;
+		font-size: 0.8rem;
+	}
+
+
+	h1 {
+		font-size: 1.5rem;
+		letter-spacing: 2px;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+		font-weight: normal;
+		text-align: center;
+	}
+
+    h3 {
+        color: var(--accent);
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        margin-top: -15px;
+    }
+
+	h4 {
+		font-size: 1rem;
+	}
+
+
+	img {
+		max-width: 100%;
+	}
+
+	pre {
+		overflow-y: visible;
+	}
+
+    a {
+        color: var(--accent);
+    }
+
+    a:visited {
+        color: var(--accent);
+    }
+
+    a:hover, a:focus {
+        color: var(--accent);
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+    }
+
+
+
+</style>
+<html>
+<head>
+	<title> Team Triptych </title>
+	<!--<link href="triptychlanding.css" rel="stylesheet" type="text/css" media="all">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<center>
+		<a href="index.html"><img src="logo.png" style="width:30%"></a>
+		<h1 style="margin-top:0px;">an interdisciplinary games collectivestudiothing.</h1>
+	</center>
+
+	<center>
+		
+		<div style="max-width:30%">
+			<br><h1>Warwick Locales</h1>
+			<h3>a series of 6 relief prints. based off of photos taken by zach of the Warwick area. designs by anderson and caitlin, carved by caitlin, and printed by everyone.</h3>
+		</div>
+	</center>
+		<div class="container">
+
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+
+		</div>
+		<br><h1>Other Thing We Did</h1>
+		<h3>info about it</h3>
+		<div class="container">
+
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+			<section class="third">
+				<img src="church.png">
+			</section>
+
+		</div>
+
+		<br>
+
+		<footer>
+			<h2>
+				<a href="">←</a>
+				web ring example
+				<a href="">→</a>
+			</h2>
+
+			<h2>
+				<a target="_blank" href="https://cdertrees.itch.io/">■</a>
+				<a target="_blank" href="https://zdesign.itch.io/">■</a>
+				<a target="_blank" href="https://laggiga.itch.io/">■</a>
+				<!--made with a computer, 2026-->
+			</h2>
+
+		</footer>
+
+</body>
+</html>
