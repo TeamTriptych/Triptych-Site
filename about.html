@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<style>
+
+	* {
+		--text: rgb(0, 0, 0);
+		--border: #000;
+		--accent: #8a54d5;
+		--bg: rgba(255, 255, 255, 0.8);
+		box-sizing: border-box;
+	}
+
+	body {
+		padding: 10px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		color: var(--text);
+		background-color: var(--bg);
+	}
+
+    .container {
+        max-width: 80rem;
+        margin: 3vw auto 5px auto;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+     
+        align-items:flex-start;
+    }
+
+	.third {
+	
+		flex: 1 1 30%;
+		color: var(--text);
+		margin:0px;
+		padding:20px;
+	}
+
+	
+
+	.fix-stroke {
+		paint-order: stroke fill;
+	}
+
+/*	.third h1 {
+		position: absolute;
+		font-size: 2.5rem;
+		bottom: 0;
+		right: 10px;
+		margin: 10px;
+	}*/
+
+	section {
+		border: 20px double var(--border);
+	}
+
+
+	footer {
+		text-align: center;
+		margin-bottom: 5vw;
+		font-size: 0.8rem;
+	}
+
+
+	h1 {
+		font-size: 1.5rem;
+		letter-spacing: 2px;
+		font-weight: normal;
+		text-align: center;
+		
+	}
+
+    h2 {
+        font-size: 1.25rem;
+        font-weight: normal;
+        text-align: center;
+    }
+
+
+    h3 {
+        text-align: center;
+        color: var(--accent);
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+		margin-top:-15px;
+    }
+
+	h4 {
+		font-size: 1rem;
+	}
+
+
+	img {
+		max-width: 100%;
+	}
+
+	pre {
+		overflow-y: visible;
+	}
+
+    a {
+        color: var(--accent);
+    }
+
+    a:visited {
+        color: var(--accent);
+    }
+
+    a:hover, a:focus {
+        color: var(--accent);
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+    }
+
+</style>
+<html>
+<head>
+	<title> Team Triptych </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<center>
+		<a href="index.html"><img src="logo.png" style="width:30%"></a>
+		<h1 style="margin-top:0px;">about us</h1>
+	</center>
+
+	<div class="container">
+	
+		<section class="third">
+			<h1>anderson leroy</h1>
+			<h3>Creative, Ghost Enjoyer, Not a lizard</h3>
+			<center><img src="anderson.png" style="border-style: solid; border-width: 5px;"></center>
+			<br>
+			<details>
+				<summary>about anderson</summary>
+				<p>
+					Anderson Leroy is a Haitian American artist whose work is heavily inspired by classical and minimalist styles. He creates art using many media including oil, acrylic, ink, cardboard, and fabric among others. With a stark passion for music and video games, his primary focus is to explore artistic avenues at the intersection of disciplines to tackle themes of genuineness and isolation.
+					<br><br>
+					He also likes ghosts.
+				</p>
+			</details>
+			<br>
+			<a href="https://laggiga.itch.io/">itch.io</a> <a href="https://www.instagram.com/laggiga_">instagram</a>
+		</section>
+
+		<section class="third">
+			<h1 class="fix-stroke">caitlin derosa</h1>
+			<h3>creative technologist tech artist interdisciplinary web freak!</h3>
+			<center><img src="caitlin.png" style="border-style: solid; border-width: 5px;"></center>
+			<br>
+			<details>
+				<summary>about caitlin</summary>
+
+				<h4>cdertrees is a free-range organic grass-fed webthing.</h4>
+				<p>
+					he is often found grazing the pastures of the world wide web, developing video games for your browser, or crafting other adjacent art things on a computer. you are likely to find him oversharing on the internet through short, autobiographical games.
+				</p>
+				<h4>caitlin derosa is a creative technologist.</h4>
+				<p>
+					he posts short solo work under the username "cdertrees" sometimes, using game development as a meditative and reflective practice to help him understand and process his experiences. In larger teams, he works mainly as an illustrator, technical artist, or programmer, depending on the needs of the project. alongside game development, caitlin is interested in printmaking, fiber arts, and textiles.
+				</p>
+				<p>
+					you should ask him about game poems or alternative milks.
+				</p>
+
+			</details>
+			<br>
+			<a href="https://cdertrees.itch.io/">itch.io</a> <a href="https://www.linkedin.com/in/caitlin-derosa/">linkedin</a> <a href="https://www.gamepoems.com/issue01/">game poems magazine</a> <a href="https://www.instagram.com/cdertrees/">instagram</a>
+		</section>
+
+		<section class="third">
+			<h1 class="fix-stroke">zach devine</h1>
+			<h3>Team Lead / Programmer / Writer</h3>
+			<center><img src="zach.png" style="border-style: solid; border-width: 5px;"></center>
+			<br>
+			<details>
+				<summary>about zach</summary>
+				<p>
+					Zach Devine is a Narrative Designer, Programmer, and Team Leader inspired by the artfulness of everyday life. With a background in physical projects such as carpentry, small engines, and leatherworking, he brings a practical and logical perspective to his artistic endeavors. Zach strives to create unusual and unique games that use interactivity as a lens for self-examination - both for himself and for his players.
+				</p>
+				<center>
+					<ul><b>« Acquired Titles »</b></ul>
+					
+					<p>
+						Fragrance Freak, Kingdom Hearts-Head, Decker Disciple
+						Scrum-dog Millionaire, Words Guy, Organization Overlord
+					</p>
+				</center>
+			</details>
+			<br>
+			<a href="https://zdesign.itch.io/">itch.io</a> <a href="https://www.linkedin.com/in/zach-devine-dev/">linkedin</a> 
+		</section>
+
+	</div>
+	
+	<br>
+	
+	<footer>
+		<h2>
+			<a href="">←</a>
+			web ring example
+			<a href="">→</a>
+		</h2>
+
+		<h2>
+			<a href="https://cdertrees.itch.io/">■</a>
+			<a href="https://zdesign.itch.io/">■</a>
+			<a href="https://laggiga.itch.io/">■</a>
+			<!--made with a computer, 2026-->
+		</h2>
+
+	</footer>
+</body>
+</html>
