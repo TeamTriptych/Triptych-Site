@@ -53,12 +53,20 @@ body {
 
 }
 
+	.animated-frame:hover {
+	flex: 1 1 30%;
+	rotate: 2deg;
+	color: white;
+	-webkit-text-stroke: 10px #000;
+	}
+
+
 .hover-animated-frame{
 	flex: 1 1 30%;
 	color: transparent;
 }
 
-	.animated-frame:hover {
+	.hover-animated-frame:hover {
 		flex: 1 1 30%;
 		rotate: 2deg;
 		color: white;
