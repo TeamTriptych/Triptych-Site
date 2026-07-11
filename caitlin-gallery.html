@@ -13,7 +13,7 @@
 
     html {
         background-color: #000000;
-        opacity: 0.8;
+        opacity: 1;
         background-image: radial-gradient(circle, #393939 1.36px, transparent 1.36px), radial-gradient(circle, #393939 1.36px, transparent 1.36px);
         background-size: 8.5px 34px, 34px 8.5px;
         background-position: -4.25px -17px, -17px -4.25px;
@@ -48,11 +48,11 @@
     }
 
     .twothird {
-        flex: 1 1 57%;
+        flex: 1 1 50%;
     }
 
     .third {
-        flex: 1 1 40%;
+        flex: 1 1 35%;
     }
 
 
@@ -68,6 +68,7 @@
 
     marquee {
         background-size: cover;
+   
         background-position: center;
         width: 100%;
         height: 30px; 
@@ -120,6 +121,7 @@
         text-align: center;
         margin-bottom: 5vw;
         font-size: 0.8rem;
+        color: var(--text);
     }
 
         footer a {
@@ -136,7 +138,9 @@
         font-weight: normal;
         text-align: center;
         border-bottom: 2px dotted var(--border);
-        padding-bottom: 5px;
+        padding: px;
+        background-color: var(--accent);
+        color:var(--bg);
     }
 
     h2 {
@@ -172,6 +176,13 @@
     a:visited {
         color: var(--accent);
     }
+    details > summary {
+        list-style: none;
+    }
+
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
 </style>
 
 <html>
@@ -186,49 +197,58 @@
         <div class="container">
 
             <header>
-                welcome 2 cderworld
+                <img src="CaitlinGalleryAsset/BANNER.png">
             </header>
 
             <marquee>/ please mind the gap /</marquee>
 
             <section class="third">
                 <h1>trinket collection</h1>
-                <h3>
+                <h3><center>
+                    <br>
                     <img src="CaitlinGalleryAsset/blinkies/linux.webp">
                     <img src="CaitlinGalleryAsset/blinkies/css.webp">
                     <img src="CaitlinGalleryAsset/blinkies/girlman.gif">
                     <img src="CaitlinGalleryAsset/blinkies/computer.webp">
                     <img src="CaitlinGalleryAsset/blinkies/neocities.webp">
                     <img src="CaitlinGalleryAsset/blinkies/heshe.webp">
-                </h3>
+                </center></h3>
             </section>
 
             <section class="twothird">
-                <h1>walcome 2 cderworld</h1>
-                <h3>come look at my arts.</h3>
-                <p> down there vv </p>
+            
+                <h1>welcome to the cderworld gallery...</h1><br>
+                                                            <center>
+                                                                <h2>here you will find illustrations, textiles, relief prints, zines, & more! click around and enjoy the art : )</h2>
+                                                                <br>
+                                                                <a href="gallery-hub.html">when you're done, head back and check out the other galleries!</a>
 
+                                                            </center>
             </section>
 
             <section class="full">
-                <h1>zines</h1>
-                <p>pksafasd</p>
+                <details>
+                <center>
+                <iframe frameborder="0" src="https://itch.io/embed-upload/18285648?color=faff3f" allowfullscreen="" width="600" height="485"><a href="https://cdertrees.itch.io/a-baristas-guide-to-the-world-of-home-cafes">Play a barista's guide to the home cafe! on itch.io</a></iframe>
+                </center>
+
+                <summary><h1>click for zines!</h1><br></summary>
+                </details>
             </section>
 
             <section class="full">
-                <h1>prints</h1>
-                <p>pksafasd</p>
-            </section>
+                <details>
+                    <center>
+                    </center>
 
-            <section class="full">
-                <h1>game s</h1>
-                <p>pksafasd</p>
+                    <summary><h1>click for prints!</h1><br></summary>
+                </details>
             </section>
 
         </div>
 
 		<footer>
-			<p>collaged by a transsexual, 2026 </p>
+			<p>crafted by a transsexual, 2026 </p>
 		</footer>
 
 	</body>
