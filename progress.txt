@@ -1,0 +1,22 @@
+TODO BEFORE SITE LAUNCH:
+
+- edit triptych logo
+
+- write more site copy
+	- main page tagline
+	- about triptych (how we are structured, what we do. tldr we are 3 guys making art and using our collective resources to support and highlight each other individually sometimes.)
+
+- make friends of triptych real?
+	-NOT A WEBRING. NO ONE SHOULD HAVE TO LINK BACK TO US, JUST A WAY TO LINK TO PEOPLE WE CARE ABT AND GIVE THEM SOME TRACTION! this would be good as a tiny page that we can link from our about or wherever 
+
+- finalize main css 
+	-do we want off white? 
+	-do we care about the little bar on bottom of frames?
+	-do we want styled portraits (like pklwrks!!)
+
+- investigate gamedev webrings and see if anything is cool
+
+- Caitlin schedule time w Anderson and Zach to make their galleries and then actually make it
+
+
+
