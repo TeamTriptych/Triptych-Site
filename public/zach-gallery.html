@@ -9,25 +9,44 @@
 		box-sizing: border-box;
 	}
     body {
+        background: var(--bg);
         /* Path to your image */
-        background-image: url('ZachGalleryAssets\Background\ShelfBG.png');
+        background-image: url("ZachGalleryAssets/Background/ShelfBG.png");
         /* Prevents the image from tiling/repeating */
         background-repeat: no-repeat;
-        /* Centers the image horizontally and vertically */
-        background-position: center;
-        /* Scales the image to completely fill the screen while maintaining proportions */
+        /* sets the origin of the image to its top?*/
+        background-position: top;
         background-size: cover;
         /* Keeps the background fixed in place when scrolling */
-        background-attachment: fixed;
+        background-attachment:local;
         /* Ensures the body takes up the full height of the viewport */
         height: 100vh;
         margin: 0;
     }
+    figure{
+        /*no padding or margin to figures*/
+        padding:0px;
+        margin:0px;
+    }
+    .shelf-picture {
+        /*set the size*/
+        height: 10vh;
+        width: 15vw;
+        border: 5px groove white;
+    }
+        .shelf-picture img {
+            /* give white groove border*/
+            border: 5px groove white;
+            width: 100%;
+        }
 
 </style>
 
 <html>
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Kranky&display=swap');
+    </style>
     <title> Zach's Gallery </title>
     <h1>Zach's Broken Page Where He Will Put Stuff When he learns HTML</h1>
     <!--<link href="triptychlanding.css" rel="stylesheet" type="text/css" media="all">-->
@@ -35,10 +54,61 @@
     <!--img src="ZachGalleryAssets\Background\ShelfBG.png" style="width:100%; float:right; float">-->
     <meta charset="utf-8">
 </head>
-
 <body>
+    <div class="shelf-picture" style="position:">
+        <figure>
+            <img src="ZachGalleryAssets\Photos\MeTakingPhoto.jpg">
+            <figcaption style="font-family:Kranky; font-size: 15px; color:white; text-align: center;"> Me taking the picture on the left </figcaption>
+        </figure>
+    </div>
     <a href="gallery-hub.html"> Fart Back to hoempeage </a>
-    <pre>                                                                                                                                                      
+    <pre>                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                    
                                                                                                                                                       
                                                                                                                                                       
                                                                                                                                                       
